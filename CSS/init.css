@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+}
+
+.init-card {
+    background: var(--card);
+    padding: 32px;
+    border-radius: 18px;
+    width: 320px;
+    text-align: center;
+}
+
+.init-card h2 {
+    margin-bottom: 8px;
+}
+
+.init-card p {
+    margin-bottom: 24px;
+    color: var(--card);
+}
+
+.init-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.init-card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #4f46e5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
